@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Aprendendo TDD na prática</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  </head>
+  <body>
+    <div id='main' style='padding: 2em;'>
+      <h1>Calculadora de troco de uma máquina de venda</h1>
+      <h2>Calcule o troco de acordo com o preço do produto e dinheiro recebido</h2>
+    </div>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+
+    <script>
+      // A sua solução será escrita aqui!
+    </script>
+
+    <script>
+      // Isso é o que um pequeno teste unitário parece:
+      test('Esse teste de exemplo deve passar sempre', (assert) => {
+        const resultado = 1 + 1
+        assert.equal(resultado, 2) // apenas para sabermos se tudo está funcionando bem
+      })
+      // Um teste falhando estará colorido como vermelho:
+      test('Esse é como um teste falhando parece', (assert) => {
+        const resultado = [1,2,3].indexOf(1)  // O valor de 'resultado' será 0 (zero)
+        assert.equal(resultado, -1) // Nós esperamos que essa validação falhe
+      })
+    </script>
+
+  </body>
+</html>
